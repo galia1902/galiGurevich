@@ -1,0 +1,16 @@
+.container{
+  background-color: red;
+  display: flex;
+  justify-content: space-evenly;
+  min-width:400px;
+  flex-wrap: wrap;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.placeholder{
+  margin: 30px;
+ background-color: green;
+ height: 200px;
+ width: 200px;
+}
