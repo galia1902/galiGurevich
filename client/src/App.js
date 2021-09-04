@@ -16,7 +16,10 @@ function App() {
     });
   }, []);
 
-  console.log(response);
+
+
+  // console.log(response);
+
 
   return (
     <>
@@ -24,9 +27,11 @@ function App() {
         <h1>Tradair Coding Assignment</h1>
         <Main
          responseCurrency = {response.map(memb => <div>{memb.currencyPairName}</div>)}
+         dataObject = {response}
         />
       </div>
     </>
+
   );
 }
 
