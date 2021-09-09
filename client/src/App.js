@@ -13,12 +13,13 @@ function App() {
     const socket = socketIOClient(ENDPOINT);
     socket.on("tick", (data) => {
       setResponse(data);
+
     });
   }, []);
 
 
 
-  // console.log(response);
+  console.log(response);
 
 
   return (

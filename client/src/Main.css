@@ -14,3 +14,7 @@
  height: 200px;
  width: 200px;
 }
+
+.placeholder.over {
+  border: 3px dotted #666;
+}
